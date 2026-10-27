@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color:rgb(242, 214, 177);
+}
+td{
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+.person1:hover{
+    background-image: url("icon1.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.person2:hover{
+    background-image: url("icon3.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.table{
+ box-shadow: 0px 10px 15px gray;
+    border-collapse: collapse;
+    cursor: pointer;
+
+}
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even){
+background-color: rgb(177, 126, 60);
+}
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd){
+background-color: rgb(255, 158, 109);
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    color:  rgb(73, 49, 17);
+    text-shadow: 0px 10px 3px rgb(222, 163, 86);
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    background: transparent;
+} 
